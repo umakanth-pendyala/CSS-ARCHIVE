@@ -90,3 +90,52 @@
   align-content: space-around;
 }
 
+/* For individual items */
+
+.flex-order-item-begining {
+  order: 1;
+}
+
+.flex-item-grow-1 {
+  flex-grow: 1;
+}
+.flex-item-grow-2 {
+  flex-grow: 2;
+}
+.flex-item-grow-3 {
+  flex-grow: 3;
+}
+.flex-item-grow-4 {
+  flex-grow: 4;
+}
+
+
+.flex-item-shrink-1 {
+  flex-shrink: 1;  
+}
+.flex-item-shrink-2 {
+  flex-shrink: 2;  
+}
+.flex-item-shrink-3 {
+  flex-shrink: 3;  
+}
+.flex-item-shrink-4 {
+  flex-shrink: 4;  
+}
+
+.flex-align-self-stretch {
+  align-self: stretch;
+}
+
+.flex-align-self-start {
+  align-self: flex-start;
+}
+.flex-align-self-end {
+  align-self: flex-end;
+}
+.flex-align-self-center {
+  align-self: center;
+}
+.flex-align-self-baseline {
+  align-self: baseline;
+}
